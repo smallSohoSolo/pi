@@ -2,7 +2,7 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android">
 
     <data>
-        <variable name="piViewModel" type="com.smallsoho.piex.vm.PiViewModel"/>
+        <variable name="numViewModel" type="com.smallsoho.piex.vm.NumViewModel"/>
     </data>
 
     <LinearLayout
@@ -11,37 +11,38 @@
             android:orientation="vertical">
 
         <TextView
+                android:maxLines="10"
                 android:id="@+id/pi_number"
                 android:textSize="18sp"
-                android:text="@{piViewModel.piNumber}"
+                android:text="@{numViewModel.piNumber}"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
 
         <TextView
                 android:id="@+id/pi_calculate"
                 android:textSize="18sp"
-                android:text="@{piViewModel.calculateTimes}"
+                android:text="@{numViewModel.calculateTimes}"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
 
         <Button
                 android:id="@+id/button_start"
                 android:text="@string/start_calculate"
-                android:onClick="@{() -> piViewModel.startCalculate()}"
+                android:onClick="@{() -> numViewModel.startCalculate()}"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
 
         <Button
                 android:id="@+id/button_pause"
                 android:text="@string/pause_calculate"
-                android:onClick="@{() -> piViewModel.pauseCalculate()}"
+                android:onClick="@{() -> numViewModel.pauseCalculate()}"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
 
         <Button
                 android:id="@+id/button_stop"
                 android:text="@string/stop_calculate"
-                android:onClick="@{() -> piViewModel.stopCalculate()}"
+                android:onClick="@{() -> numViewModel.stopCalculate()}"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
 
