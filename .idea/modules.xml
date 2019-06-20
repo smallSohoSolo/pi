@@ -4,8 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/PiEx.iml" filepath="$PROJECT_DIR$/PiEx.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/pi.iml" filepath="$PROJECT_DIR$/pi.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/pi-app.iml" filepath="$PROJECT_DIR$/app/pi-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/number-livedata.iml" filepath="$PROJECT_DIR$/number-livedata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/number-livedata-app.iml" filepath="$PROJECT_DIR$/app/number-livedata-app.iml" />
     </modules>
   </component>
 </project>
